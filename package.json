@@ -11,12 +11,19 @@
   },
   "dependencies": {
     "axios": "^0.24.0",
+    "docxtemplater": "^3.29.2",
+    "docxtemplater-image-module-free": "^1.1.1",
     "echarts": "^5.3.2",
     "element-ui": "^2.15.6",
+    "file-saver": "^2.0.5",
+    "jszip": "^3.9.1",
+    "jszip-utils": "^0.1.0",
     "moment": "^2.29.1",
+    "pizzip": "^3.1.1",
     "vue": "^2.5.2",
     "vue-axios": "^3.3.7",
     "vue-echarts": "^6.0.2",
+    "vue-json-excel": "^0.3.0",
     "vue-router": "^3.0.1"
   },
   "devDependencies": {

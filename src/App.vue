@@ -45,7 +45,7 @@
                 <span>系统管理</span>
               </template>
               <el-menu-item-group>
-                <el-menu-item index="3-1">用户列表</el-menu-item>
+                <el-menu-item index="/UserList">用户列表</el-menu-item>
                 <el-menu-item index="3-2">评论列表</el-menu-item>
               </el-menu-item-group>
             </el-submenu>

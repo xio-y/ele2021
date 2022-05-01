@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import NewsAdd from '@/components/NewsAdd'
 import NewsList from '@/components/NewsList'
 import Chart from '@/components/Chart'
+import UserList from '@/components/UserList'
 
 Vue.use(Router)
 
@@ -22,6 +23,11 @@ export default new Router({
       path: '/Chart',
       name: 'Chart',
       component: Chart
+    },
+    {
+      path: '/UserList',
+      name: 'UserList',
+      component: UserList
     }
   ]
 })

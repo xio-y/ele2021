@@ -21,6 +21,8 @@ import {
   GridComponent,
   TooltipComponent
 } from 'echarts/components'
+import JsonExcel from 'vue-json-excel'
+Vue.component('downloadExcel', JsonExcel)
 
 use([
   CanvasRenderer,
